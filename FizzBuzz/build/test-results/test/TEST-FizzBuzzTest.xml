@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FizzBuzzTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-09-16T04:13:24" hostname="Nurman" time="0.002">
+  <properties/>
+  <testcase name="evaluateFizzBuzz_fizzNumber" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="evaluateFizzBuzz_buzzNumber" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="evaluateFizzBuzz_notOfAll" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="evaluateFizzBuzz_fizzBuzzNumber" classname="FizzBuzzTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

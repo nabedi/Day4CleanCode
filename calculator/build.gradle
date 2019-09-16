@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+}
+
+group 'com.abe'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+jacoco {
+    toolVersion = "0.8.4"
+    reportsDir = file("customJacocoReportDir")
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled false
+        csv.enabled false
+        html.destination file("jacocoHtml")
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
